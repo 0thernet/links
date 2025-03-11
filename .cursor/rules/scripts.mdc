@@ -1,6 +1,6 @@
 ---
 description: Writing bun scripts
-globs: *.ts
+globs: scripts/*.ts
 alwaysApply: false
 ---
 
