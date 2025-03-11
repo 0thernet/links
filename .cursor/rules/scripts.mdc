@@ -1,0 +1,15 @@
+---
+description: Writing bun scripts
+globs: *.ts
+alwaysApply: false
+---
+
+# Writing scripts
+
+- Always use bun and modern typescript
+- Always add comprehensive (clear and concise) logging to make it easy to see what the script is doing
+- Use emojis (sparingly) for easy visual scanning of loglines
+- Make sure we are not logging duplicate or redundant loglines
+- When you add logs for debugging, prefix them with [DEBUG]
+- Always add a progress indicator for long operations where progress is known (e.g. repeatedly processing a list of items)
+
